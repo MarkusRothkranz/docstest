@@ -1,1 +1,1 @@
-.. mdinclude:: files/test.md
+.. mdinclude:: test.md
