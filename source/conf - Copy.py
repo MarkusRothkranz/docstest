@@ -52,9 +52,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u' User Guide'
-copyright = u'2013–2020, Company'
-author = 'author'
+project = u'Python Packaging User Guide'
+copyright = u'2013–2019, PyPA'
+author = 'Python Packaging Authority'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -132,7 +132,7 @@ html_theme_options = {
     'collapsiblesidebar': True,
     'externalrefs': True,
     'navigation_depth': 2,
-    'issues_url': 'https://github.com//issues'
+    'issues_url': 'https://github.com/pypa/python-packaging-user-guide/issues'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -141,7 +141,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = 'html_title'
+html_title = 'Python Packaging User Guide'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -314,7 +314,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pythonpackagingguide', 'User Guide',
+    (master_doc, 'pythonpackagingguide', 'Python Packaging User Guide',
      [author], 1)
 ]
 
@@ -329,7 +329,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pythonpackagingguide', 'User Guide',
+    (master_doc, 'pythonpackagingguide', 'Python Packaging User Guide',
      author, 'pythonpackagingguide', 'One line description of project.',
      'Miscellaneous'),
 ]
