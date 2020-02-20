@@ -1,2 +1,2 @@
-01
-.. mdinclude:: test.md
+02
+.. mdinclude:: /test.md
