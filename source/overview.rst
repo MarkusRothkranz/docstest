@@ -1,33 +1,18 @@
 ===================================
-An Overview of Packaging for Python
+About Docs
 ===================================
 
 .. Editors, see notes at the bottom of the document for maintenance info.
 
-As a general-purpose programming language, Python is designed to be
-used in many ways. You can build web sites or industrial robots or a
-game for your friends to play, and much more, all using the same
-core technology.
-
-Python's flexibility is why the first step in every Python project
-must be to think about the project's audience and the corresponding
-environment where the project will run. It might seem strange to think
-about packaging before writing code, but this process does wonders for
-avoiding future headaches.
-
-This overview provides a general-purpose decision tree for reasoning
-about Python's plethora of packaging options. Read on to choose the best
-technology for your next project.
+Docs
 
 .. contents:: Contents
    :local:
 
-Thinking about deployment
+Header 1
 -------------------------
 
-Packages exist to be installed (or *deployed*), so before you package
-anything, you'll want to have some answers to the deployment questions
-below:
+Text 1:
 
 * Who are your software's users? Will your software be installed by
   other developers doing software development, operations people in a
@@ -42,9 +27,10 @@ combination of circumstances has its own solutions. With this
 information, the following overview will guide you to the packaging
 technologies best suited to your project.
 
-Packaging Python libraries and tools
+Header 2
 ------------------------------------
 
+Text 2
 You may have heard about PyPI, ``setup.py``, and ``wheel``
 files. These are just a few of the tools Python's ecosystem provides
 for distributing Python code to developers, which you can read about in
@@ -55,7 +41,7 @@ tools used by technical audience in a development setting. If you're
 looking for ways to package Python for a non-technical audience and/or
 a production setting, skip ahead to :ref:`packaging-applications`.
 
-Python modules
+subtitle 2.1
 ^^^^^^^^^^^^^^
 
 A Python file, provided it only relies on the standard library, can be
@@ -74,7 +60,7 @@ However, this pattern won't scale for projects that consist of
 multiple files, need additional libraries, or need a specific version
 of Python, hence the options below.
 
-Python source distributions
+subtitle 2.2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If your code consists of multiple Python files, it's usually organized
